@@ -29,9 +29,41 @@ p{
     margin-top: 75px;
 }
 
+
+
+#subHead {
+
+  text-align: center;
+  font-size: 25px;
+  color: white;
+
+}
+
+
+
+
+#aboutPara {
+  text-align: center;
+  background-color: white;
+  border-radius: 2%;
+  border-width: 0cap;
+  border-style: solid;
+  font-family: Commissioner;
+  color: black;
+
+  width: 80%;
+  justify-content: center;
+ 
+  align-items: center;
+  margin: auto;
+
+
+}
+
 body {
     background-image:url(witizia-pyrenees-351266.jpg);
     background-image: no-repeat;
+    background-attachment: fixed;
 }
 
 .topnav {
@@ -49,6 +81,12 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+.topnav img {
+  justify-content: center;
+  margin: auto;
+
 }
 
 /* Change the color of links on hover */
@@ -130,4 +168,21 @@ img {
   padding: 10px;
   text-align: center;  
   font-size: 20px;
+}
+
+
+
+
+#WORKINPROGRESS {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: yellow;
+  border-style: dashed;
+  border-color: orange;
+  border-width: 3px;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  
 }
