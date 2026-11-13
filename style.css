@@ -29,6 +29,25 @@ p{
     margin-top: 75px;
 }
 
+p.a {
+  text-align: center;
+  font-family: Arvo Bold;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  margin-bottom: 0.25%;
+}
+
+p.b{
+  text-align: center;
+    padding: 0px 0px 40px;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+
+}
+
 
 
 #subHead {
