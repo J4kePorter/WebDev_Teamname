@@ -13,7 +13,7 @@
             <a class="active" href="index.html"><img src="images/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="HomeButton"></a>
             <a href="about.html">About</a>
             <a>Possible drop down menu</a>
-            <input type="text" placeholder="Search..">
+            <input type="text" placeholder="Search.." id ="">
         </div>
         <h1>
             <strong>Snow Trails Travel</strong>
@@ -36,26 +36,72 @@
             Find more about available Bookings Below
         </h3>
         
-        <p id="WORKINPROGRESS">
-            ADD BOOKING MENU (HERE)
-        </p>
+        
 
+
+        <!------------------------- This is the booking menu ----------------------- -->
+        <section class ="booking-menu">
+            <h2> Find Your Winter Escape</h2>
+            <p>Discover your mountain adventure.</p>
+
+            <form action="booking.html" method="get">
+                <div class="form-group">
+                    <label for="destination">Destination</label>
+                    <select id="destination" name="destination" required>
+                        <option value="">Choose a Destination</option>
+                        <option value="france">Val Thorens, France</option>
+                        <option value="switzerland">Zermatt, Switzerland</option>
+                        <option value="austria">St. Anton, Austria</option>
+                        <option value="italy">Livigno, Italy</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="departure">Departure Date</label>
+                    <input type="date" id="departure" name="departure" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="return">Return Date</label>
+                    <input type="date" id="return" name="return" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="travellers">Travellers</label> 
+                    <input type="number" id="travellers" name="travellers" min="1" max="10" value="2" required>
+                </div>
+                <div class="form-group">
+                    <label for="holiday">Holiday Type</label>
+                    <select id="holiday">
+                        <option>Skiing</option>
+                        <option>Snowboarding</option>
+                        <option>Winter Sightseeing</option>
+                        <option>Family Holiday</option>
+                    </select>
+                </div>
+
+                <button type="submit">Find My Adventure</button>
+
+
+
+            </form>
+
+
+
+        </section>
+
+
+<!------------------------------------------------------------------->
 
         
         
 
 
 
+<!---------------------------------Images-------------------------------------------->
 
-
-        <img src="robson-hatsukami-morgan-FTJHdBkDpBE-unsplash - 30-09-2026 17-45-15.png" alt="SKI Collage">
-        <video width="320" height="240" autoplay muted>
-        <source src="/Users/jakeporter/Documents/GitHub/WebDev_Teamname/AdobeStock_126335914.mp4" type="video/mov">
-        
-        </video>
-
-
-    
+        <img src="robson-hatsukami-morgan-FTJHdBkDpBE-unsplash - 30-09-2026 17-45-15.png" alt="SKI Collage"> 
+<!------------------------------------------------------------------------------------>
     <footer>
         <p>
             Author <strong>Jake Porter</strong>
